@@ -1,0 +1,25 @@
+Smart Couple Coin enclosure updated for softer bottom edges.
+
+Verified part bounding boxes, bottom + top: 50.000 x 35.000 x 18.000 mm
+BottomShell bbox: X=-25.000..25.000, Y=-17.500..17.500, Z=-0.000..16.000
+Top lid bbox: X=-25.000..25.000, Y=-17.500..17.500, Z=16.000..18.000
+Top lid thickness: 2.000 mm
+
+Applied changes:
+- Bottom/base perimeter edges of the lower shell were filleted with radius 0.60 mm.
+- Top lid remains a plain 2.0 mm cap with softened edges and no center holes.
+- USB-C charge port is on the short edge x=-25, rounded opening 10.5 x 4.5 mm.
+- 9 x 4 mm switch opening is parallel to and on the same short edge as USB-C.
+- 6 x 6 mm button opening is on the long edge near the button-pad side.
+- Lanyard/keyring hole D4.0 mm is on the opposite short edge x=+25.
+- Case outline remains rounded rectangle R6; USB-C/switch/button openings have rounded profiles.
+
+Fillet details:
+- Selected bottom edges: 8
+- Bottom fillet radius applied: 0.60 mm
+- Top lid fillet radius from previous model: 0.55 mm
+
+Assumptions:
+- Exact two button pad coordinates were not present in the project files, so the 6 x 6 mm side button cutout is placed on the long edge at x=3.0, y=-17.5, z=11.5.
+- Switch cutout center is y=8.2, z=13.0 on the USB-C side.
+- Lanyard hole center is y=0.0, z=13.0 on the opposite short edge.
